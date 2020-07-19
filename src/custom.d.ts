@@ -1,3 +1,5 @@
+declare type Coords = { x: number; y: number };
+
 declare type DataEachCallback = (parent: any, key: string, value: any, ...args: any[])=>void;
 
 declare type ContentLoadedCallback = ()=>void;
